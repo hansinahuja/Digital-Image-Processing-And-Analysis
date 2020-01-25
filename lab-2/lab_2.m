@@ -2,8 +2,8 @@ A = imread("watch.tif");
 sizeA = size(A);
 m = round(2*sizeA(1));
 n = round(2*sizeA(2));
-B_inbuilt = imresize(A, [m, n], 'bilinear');
-B_nearest = bilinear(m, n, A);
+B_inbuilt = imresize(A, [m, n], 'nearest');
+B_nearest = nearest(m, n, A);
 C = rmse_img(B_inbuilt, B_nearest);
 err = rmse(B_inbuilt, B_nearest);
 
