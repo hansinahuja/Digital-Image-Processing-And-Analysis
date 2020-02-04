@@ -48,7 +48,7 @@ for i = 1:m
 
         top = topright.*alpha + topleft.*(1-alpha);
         bottom = bottomright.*alpha + bottomleft.*(1-alpha);
-        val = round(bottom.*beta + top.*(1-beta));
+        val = bottom.*beta + top.*(1-beta);
         B(i,j) = val;
     end
 end
