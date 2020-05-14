@@ -6,5 +6,5 @@ Some codes written by me in my Digital Image Processing &amp; Analysis course.
 - assignment-3: image-compression
 - lab-1: basics
 - labs-2-and-3: image resizing
-- lab-4: morphological transformations
+- lab-4: morphological operations
 - lab-5: FFT and connected components
